@@ -119,4 +119,5 @@ def main():
 
 if __name__ == '__main__':
     threading.Thread(target=check_market_open).start()
+    time.sleep(5)
     main()
